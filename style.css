@@ -1,0 +1,40 @@
+*{
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+.textField{
+    height: 80px;
+    width:265px;
+    border: 3px solid;
+    border-radius:100px;
+    margin-bottom:20px;
+    background-color:beige;
+}
+.text{
+    text-align:right;
+    margin-right:20px;
+    margin-top: 7px;
+    font-size:50px;
+    color:burlywood;
+}
+
+.container{
+    border: 5px solid;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding:15px;
+    background-color: burlywood;
+    overflow:hidden;
+    color:burlywood;
+    border-radius:60px;
+}
+.button button{
+    margin:3px;
+    border-radius:60px;
+    text-align:center;
+    font-size:x-large;
+    border-color:burlywood;
+    padding:20px;
+}
