@@ -12,27 +12,27 @@ function displayText(event){
 
 function doOperation(){
     const display = document.querySelector(".text").value;
-    const x = parseInt(display);
+    const x = parseFloat(display);
     let z = 0;
     for(let i = display.length-1; i>=0; i--){
         let operator = display.charAt(i);
         if(operator=='+'){
-            const y = parseInt(display.substring(i+1));
+            const y = parseFloat(display.substring(i+1));
             z = x+y;
             break;
         }
         else if(operator=='-'){
-            const y = parseInt(display.substring(i+1));
+            const y = parseFloat(display.substring(i+1));
             z = x-y;
             break;
         }
         else if(operator=="/"){
-            const y = parseInt(display.substring(i+1));
+            const y = parseFloat(display.substring(i+1));
             z = x/y;
             break;
         }
         else if(operator=="*"){
-            const y = parseInt(display.substring(i+1));
+            const y = parseFloat(display.substring(i+1));
             z = x*y;
             break;
         }
